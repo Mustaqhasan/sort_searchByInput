@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#heading {
+  padding: 16px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+#container {
+  padding: 10px;
+}
+#searchbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchbar > input {
+  width: 78%;
+  height: 40px;
+  font-size: 30px;
+}
+
+#searchbar > button {
+  width: 20%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#buttons button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+#table {
+  width: 100%;
+  /* height: 600px; */
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  /* overflow: hidden; */
+  z-index: 2000;
+  background-color: white;
+}
